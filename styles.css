@@ -37,7 +37,7 @@
       }
 
       .logo{
-        height: 60px;
+        height: 50px;
         width: auto;
       }
       
@@ -161,21 +161,21 @@
     margin: 50px 50px;
 }
 .hometownimages{
-    min-width: 50%;
-    min-height: 50%;
-    max-width: 90%;
-    max-height: 90%;
+    min-width: 60%;
+    min-height: 60%;
+    max-width: 95%;
+    max-height: 95%;
 }
 
 dt{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
-    margin: 20px 50px;
+    margin: 20px 0px;
 }
 
 dd{
-    font-size: 20px;
-    margin: 20px 50px;
+    font-size: 40px;
+    margin: 20px 0px;
 }
   
   /*Footer Styles */
