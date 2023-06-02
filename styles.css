@@ -33,26 +33,25 @@
       
       .masthead a{
         display: flex;
-        flex-shrink: 10px;
+        flex-shrink: 0px;
       }
 
       .logo{
         height: 60px;
         width: auto;
-        margin-left: 10px;
       }
       
       .navigation li {
         list-style: none;
         display: inline-flex;
         flex-direction: column;
-        padding-right: 25px;
-        flex-shrink: 10px;
+        flex-wrap: wrap;
+        margin-right: 25px;
       
       }
       
       .navigation a {
-        font-size:larger;
+        font-size: auto;
         text-decoration: underline;
         color: whitesmoke;
       }
@@ -71,22 +70,8 @@
     /* INTRO STYLE */ 
 
 
-  .icecream {
-    height: 480px;
-    width: 480px;
-    background-image: url("https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif");
-    background-repeat: no-repeat;
-    margin: 0px auto;
-  }
   
-  .shoutout {
-    line-height: 1.6;
-    background-color:whitesmoke;
-    opacity: 1;
-    text-align:center;
-    position: relative;
-    top: 300px;
-  }
+
 
   .welcome h1, p{
     padding: 10px;
@@ -102,14 +87,15 @@
     flex-wrap: wrap;
     justify-content:center;
     padding: 20px auto;
-    flex-shrink: 10px;
   }
 
   .button{
     background-color: white;
-    padding: 70px 70px;
+    height: 100px;
+    width: 100px;
     border-radius: 20%;
     margin: 20px 35px;
+    
  
   }
 
@@ -117,7 +103,7 @@
     text-decoration:none;
     color: black;
     opacity: 1;
-    font-size:large;
+    font-size: larger;
     font-weight:bold;
   }
 
@@ -146,14 +132,17 @@
 /* BIOPAGE SECTION */
 .biopage{
     display: flex;
-    margin: 50px 60px;
+    margin: auto auto;
     justify-content: center;
     
 }
 
 .biopage img{
-    width: 30%;
-    height: 30%;
+    margin: 10px; 
+    min-width: 30%;
+    min-height: 30%;
+    max-width:40%;
+    max-height:40%;
 }
 
 .biopage article{
@@ -172,8 +161,10 @@
     margin: 50px 50px;
 }
 .hometownimages{
-    width: 50%;
-    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    max-width: 90%;
+    max-height: 90%;
 }
 
 dt{
