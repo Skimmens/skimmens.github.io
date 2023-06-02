@@ -41,6 +41,7 @@
         display: inline-flex;
         flex-direction: column;
         padding-right: 25px;
+        flex-shrink: 10px;
       
       }
       
@@ -69,7 +70,7 @@
     width: 480px;
     background-image: url("https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif");
     background-repeat: no-repeat;
-    margin: 0px 435px;
+    margin: 0px auto;
   }
   
   .shoutout {
@@ -92,8 +93,10 @@
 
   .links{
     display: flex;
+    flex-wrap: wrap;
     justify-content:center;
-    padding: 20px 20px;
+    padding: 20px auto;
+    flex-shrink: 10px;
   }
 
   .button{
@@ -110,8 +113,8 @@
     opacity: 1;
     font-size:large;
     font-weight:bold;
-    
   }
+
 
   .button:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
